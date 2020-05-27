@@ -4,6 +4,7 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello World!";
+    double a = 12;
+    printf("Hello");
     return 0;
 }
