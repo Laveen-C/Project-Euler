@@ -1,15 +1,20 @@
 #include <iostream>
-#include <vector>
 
-int main() {
+int main() 
+{
+  int sum = 0;
 
-  std::vector<int> yeet(12);
-
-  int i;
-  
-  for (i = 0; i < yeet.size(); i++) {
-  std::cout << yeet[i] << std::endl;
+  for (int i = 1; i < 1000; i++)
+  {
+    if (i % 3 == 0)
+    {
+      sum += i;
+    }
+    else if (i % 5 == 0)
+    {
+      sum += i;
+    }
   }
-
+  std::cout << sum << std::endl;
   return 0;
 }
