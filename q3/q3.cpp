@@ -2,7 +2,7 @@
 
 int main()
 {
-    long long num = 42;
+    long long num = 600851475143;
     for (int i = 2; i < num; i++)
     {
         while (num % i == 0)
